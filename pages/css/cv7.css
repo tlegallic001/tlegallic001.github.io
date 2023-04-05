@@ -233,7 +233,7 @@ margin-left:25px;
 
 #pro {
     background-color: #fff;
-    margin-top: 5%;
+    margin-top: 5.5%;
 }
 
 #pro:hover {
@@ -241,9 +241,13 @@ margin-left:25px;
     color: white;
 }
 
+#pro:active{
+    color:black;
+}
+
 #asso {
     background-color: #E787FF;
-    margin-top: 8%;
+    margin-top: 8.5%;
 }
 
 #asso:hover {
@@ -251,9 +255,13 @@ margin-left:25px;
     color: white;
 }
 
+#asso:active{
+    color:black;
+}
+
 #form {
     background-color: #EFFF36;
-    margin-top: 11%;
+    margin-top: 11.5%;
 }
 
 #form:hover {
@@ -261,9 +269,13 @@ margin-left:25px;
     color: white;
 }
 
+#form:active{
+    color:black;
+}
+
 #comp {
     background-color: #51FC00;
-    margin-top: 14%;
+    margin-top: 14.5%;
 }
 
 #comp:hover {
@@ -271,9 +283,13 @@ margin-left:25px;
     color: white;
 }
 
+#comp:active{
+    color:black;
+}
+
 #at {
     background-color: #FF0000;
-    margin-top: 17%;
+    margin-top: 17.5%;
 }
 
 #at:hover {
@@ -281,9 +297,13 @@ margin-left:25px;
     color: white;
 }
 
+#at:active{
+    color:black;
+}
+
 #prix {
     background-color: #9747FF;
-    margin-top: 20%;
+    margin-top: 20.5%;
 }
 
 #prix:hover {
@@ -291,9 +311,13 @@ margin-left:25px;
     color: white;
 }
 
+#prix:active{
+    color:black;
+}
+
 #interet {
-    background-color: #02D7D7;
-    margin-top: 23%;
+    background-color: #FF9900;
+    margin-top: 23.5%;
 }
 
 #interet:hover {
@@ -301,18 +325,8 @@ margin-left:25px;
     color: white;
 }
 
-.PDF {
-    border: 2px solid white;
-    background-color: black;
-    color: white;
-    text-decoration: none;
-    position: fixed;
-    font-size: 10px;
-    font-family: michroma;
-    padding: 4px;
-    margin-left: 26.2%;
-    margin-top: 40.5%;
-    z-index: 9;
+#interet:active{
+    color:black;
 }
 
 .PDF:hover{
