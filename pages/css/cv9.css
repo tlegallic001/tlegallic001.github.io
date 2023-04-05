@@ -1,0 +1,284 @@
+@import url('https://fonts.googleapis.com/css2?family=Michroma&display=swap');
+
+* {
+    padding: 0;
+    margin: 0;
+}
+
+body {
+    min-height: 100vh;
+    background-color: #158FFF;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+h1{
+    font-family: michroma;
+    font-size: 30px;
+    padding-top: 50px;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+}
+
+h2{
+    font-family: michroma;
+    font-size: 24px;
+    padding-top: 20px;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+}
+
+h3{
+    font-family: michroma;
+    font-size: 15px;
+    padding-top: 20px;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+}
+
+.menu {
+    position: fixed;
+    width: 350px;
+    height: 100vh;
+    background-color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    border-color: 2px solid red;
+}
+
+.Curriculum {
+    background-color: #158FFF;
+    color: white;
+    border-color: 3px solid black;
+    font-family: michroma;
+    font-size: 20px;
+    padding: 7px 8px 7px 8px;
+    margin-top: 150px;
+    margin-left: 118px;
+    border: none;
+    transition-duration: 0.4s;
+}
+
+.Curriculum:hover{
+    background-color: black;
+    color: white;
+}
+
+
+.reseaux{
+    padding-top: 55px;
+    padding-left: 100px;
+}
+
+.social-icon {
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    height: 3.5rem;
+    width: 3.5rem;
+    background-color: black;
+    color: #fff;
+    border-radius: 100%;
+    font-size: 1.5rem;
+    margin-right: 1.5rem;
+}
+
+.social-icon:hover {
+    background-color: #158FFF;
+    color: white;
+}
+
+p {
+    display: flex;
+    justify-content: center;
+    padding-top: 15px;
+    font-family: michroma;
+    font-size: 15px;
+    color:#949494;
+}
+
+#cross {
+    display: flex;
+    flex-direction: column;
+}
+
+.cross{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    padding-top: 6%;
+}
+
+.cross2{
+    width: 25px;
+    height: auto;
+    margin-right: 10px;
+    border: 2px solid black;
+    margin-top: 10px;
+    padding: 5px;
+}
+
+.titre {
+    margin-left: 25%;
+    margin-right: 2%;
+    color:black;
+}
+
+.content {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin-right: 30px;
+    margin-left: 5%;
+}
+
+.portrait {
+    border-radius: 5%;
+    margin-top: 3%;
+    padding-top: 0;
+    margin-left: 50%;
+    width: 200px; 
+    height: auto;
+}
+
+.description {
+    font-family: michroma;
+    font-size: 12px;
+    margin-top:5px;
+    padding-top: 0;
+    color: black;
+    margin-left: 17%;
+}
+
+
+
+.xp {
+    border: 2px solid black;
+    text-decoration: none;
+    position: fixed;
+    font-size: 10px;
+    font-family: michroma;
+    padding: 4px;
+    margin-left: 26.2%;
+    z-index: 9;
+}
+
+
+.xp {
+    border: 2px solid black;
+    text-decoration: none;
+    position: fixed;
+    font-size: 10px;
+    font-family: michroma;
+    padding: 4px;
+    margin-left: 26.2%;
+    z-index: 9;
+}
+
+.xp:active{
+    color: black;
+}
+
+#pre {
+    background-color: #fff;
+    margin-top: 6%;
+}
+
+#pre:hover {
+    background-color: black;
+    color: white;
+}
+
+#pro {
+    background-color: #E787FF;
+    margin-top: 9%;
+}
+
+#pro:hover {
+    background-color: black;
+    color: white;
+}
+
+#asso {
+    background-color: #EFFF36;
+    margin-top: 12%;
+}
+
+#asso:hover {
+    background-color: black;
+    color: white;
+}
+
+#form {
+    background-color: #51FC00;
+    margin-top: 15%;
+}
+
+#form:hover {
+    background-color: black;
+    color: white;
+}
+
+#comp {
+    background-color: #FF0000;
+    margin-top: 18%;
+}
+
+#comp:hover {
+    background-color: black;
+    color: white;
+}
+
+#at {
+    background-color: #9747FF;
+    margin-top: 21%;
+}
+
+#at:hover {
+    background-color: black;
+    color: white;
+}
+
+#prix {
+    background-color: #FF9900;
+    margin-top: 24%;
+}
+
+#prix:hover {
+    background-color: black;
+    color: white;
+}
+
+#interet {
+    background-color: #02D7D7;
+    margin-top: 27%;
+}
+
+#interet:hover {
+    background-color: black;
+    color: white;
+}
+
+.PDF {
+    border: 2px solid white;
+    background-color: black;
+    color: white;
+    text-decoration: none;
+    position: fixed;
+    font-size: 10px;
+    font-family: michroma;
+    padding: 4px;
+    margin-left: 26.2%;
+    z-index: 9;
+}
+
+.PDF:hover{
+    background-color: white;
+    color: black;
+}
+
+.PDF:active{
+    color: black;
+}

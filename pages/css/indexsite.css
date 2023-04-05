@@ -1,0 +1,291 @@
+@import url('https://fonts.googleapis.com/css2?family=Michroma&display=swap');
+
+
+
+* {
+    padding: 0;
+    margin: 0;
+}
+
+body {
+    min-height: 100vh;
+    background-color: #FFCF23;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+#prenom{
+    font-family: michroma;
+    font-size: 30px;
+    padding-top: 50px;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+}
+
+#fonction{
+    font-family: michroma;
+    font-size: 24px;
+    padding-top: 20px;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+}
+
+#contact{
+    font-family: michroma;
+    font-size: 15px;
+    padding-top: 20px;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+}
+
+.menu {
+    position: fixed;
+    width: 350px;
+    height: 100vh;
+    background-color: white;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.Portfolio {
+    background-color: #FFCF23;
+    color: black;
+    font-family: michroma;
+    font-size: 20px;
+    padding: 7px 8px 7px 8px;
+    margin-top: 150px;
+    margin-left: 63px;
+    border:none;
+    transition-duration: 0.4s;
+}
+
+.Portfolio:hover{
+    background-color: black;
+    color: white;
+}
+
+.reseaux{
+    padding-top: 55px;
+    padding-left: 100px;
+}
+
+.social-icon {
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    height: 3.5rem;
+    width: 3.5rem;
+    background-color: black;
+    color: #fff;
+    border-radius: 100%;
+    font-size: 1.5rem;
+    margin-right: 1.5rem;
+}
+
+.social-icon:hover {
+    background-color: #FFCF23;
+    color: black;
+}
+
+p {
+    display: flex;
+    justify-content: center;
+    padding-top: 15px;
+    font-family: michroma;
+    font-size: 15px;
+    color:#949494;
+}
+
+#mara {
+    margin-left: -16%;
+}
+
+#chainon {
+    margin-left: -82%;
+}
+
+#saut {
+    margin-left: -40%;
+}
+
+#logo {
+    width: 322px;
+}
+
+#info {
+    height: 455px;
+}
+
+#robot {
+    margin-left: -12%;
+}
+
+#ville {
+   width: 350px;
+   height: auto;
+   margin-left: -8%;
+}
+
+#bx {
+    width: 350px;
+    height: auto;
+    margin-left: -4.6%;
+    margin-top: -10%;
+}
+
+#site {
+    object-fit: fill;
+}
+
+.img {
+    height: 100%;
+}
+
+.image-grid{
+    margin-left: 358px;
+    padding-bottom: 5px;
+    padding-top: 7px;
+
+    --gap: 10px;
+    --num-cols:3;
+    --row-height:300px;
+
+    box-sizing: border-box;
+    padding: var(gap);
+
+    display: grid;
+    grid-template-columns: repeat(var(--num-cols), 1fr);
+    grid-auto-rows: var(--row-height);
+    gap: var(--gap);
+}
+
+.image-grid > img {
+    width: 100%;
+    height: 100%;
+}
+
+@media screen and (max-width: 1024px) {
+    .image-grid{
+        --num-cols:2;
+        --row-height:200px;
+    }
+}
+
+.example {
+    position: relative;
+    padding-top: 0;
+    width: 322px;
+    cursor: pointer;
+    overflow: hidden;
+}
+
+.content {
+    font-family: michroma;
+    opacity: 0;
+    font-size: 40px;
+    position: absolute;
+    top: 0;
+    left: 0;
+    color: white;
+    background-color: rgba(0, 0, 0, 0.801);
+    width: 322px;
+    height: 300px;
+    -webkit-transition: all 400ms ease-out;
+    -moz-transition: all 400ms ease-out;
+    -o-transition: all 400ms ease-out;
+    -ms-transition: all 400ms ease-out;
+    transition: all 400ms ease-out;
+    text-align: center;
+}
+  
+.example .content:hover {
+    opacity: 1;
+}
+  
+.example .content .text {
+    height: 0;
+    opacity: 1;
+    transition-delay: 0s;
+    transition-duration: 0.4s;
+}
+  
+.example .content:hover .text {
+    opacity: 1;
+    transform: translateY(40px);
+    -webkit-transform: translateY(40px);
+}
+
+#scroll_to_top {
+  position: fixed;
+  width: 25px;
+  height: 25px;
+  bottom: 50px;
+  right: 50px;
+}
+    
+#scroll_to_top img {
+  width: 60px;
+}
+
+.description {
+    font-family: michroma;
+    font-size: 12px;
+    color: white;
+    justify-content: center;
+    padding-left: 10%;
+    padding-right: 10%;
+}
+
+.legende {
+    font-family: michroma;
+    font-size: 9px;
+    color: white;
+    justify-content: center;
+    padding-left: 10%;
+    padding-right: 10%;
+}
+
+.cross2{
+    width: 25px;
+    height: auto;
+    margin-top: 5%;
+    margin-left: 72%;
+    border: 2px solid black;
+    background-color: white;
+    padding: 5px;
+}
+
+.titre {
+    color: white;
+    font-size: 15px;
+}
+
+.text {
+    margin-top:23%;
+    margin-left: 5%;
+    padding-left: 25%;
+    padding-right: 25%;
+    text-align: center;
+}
+
+.fond {
+    width:100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.89);
+    position: fixed;
+    margin:0;
+    padding: 0;
+    z-index: 6;
+}
+
+.agrandi {
+    position: fixed;
+    top: 20%;
+    left: 33%;
+    width: 525px;
+    height: 295px;
+    z-index: 9999;
+    border: none;
+}
