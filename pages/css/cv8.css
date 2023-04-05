@@ -223,6 +223,10 @@ margin-left:25px;
     color: white;
 }
 
+#pro:active{
+    color:black;
+}
+
 #asso {
     background-color: #E787FF;
     margin-top: 8.5%;
@@ -231,6 +235,10 @@ margin-left:25px;
 #asso:hover {
     background-color: black;
     color: white;
+}
+
+#asso:active{
+    color:black;
 }
 
 #form {
@@ -243,6 +251,10 @@ margin-left:25px;
     color: white;
 }
 
+#form:active{
+    color:black;
+}
+
 #comp {
     background-color: #51FC00;
     margin-top: 14.5%;
@@ -251,6 +263,10 @@ margin-left:25px;
 #comp:hover {
     background-color: black;
     color: white;
+}
+
+#comp:active{
+    color:black;
 }
 
 #at {
@@ -263,6 +279,10 @@ margin-left:25px;
     color: white;
 }
 
+#at:active{
+    color:black;
+}
+
 #prix {
     background-color: #9747FF;
     margin-top: 20.5%;
@@ -273,6 +293,10 @@ margin-left:25px;
     color: white;
 }
 
+#prix:active{
+    color:black;
+}
+
 #interet {
     background-color: #FF9900;
     margin-top: 23.5%;
@@ -281,6 +305,10 @@ margin-left:25px;
 #interet:hover {
     background-color: black;
     color: white;
+}
+
+#interet:active{
+    color:black;
 }
 
 
