@@ -276,8 +276,8 @@ hr {
 }
 
 #pro {
-    background-color: #E787FF;
-    margin-top: 2%;
+    background-color: #fff;
+    margin-top: 5.5%;
 }
 
 #pro:hover {
@@ -285,9 +285,13 @@ hr {
     color: white;
 }
 
+#pro:active{
+    color:black;
+}
+
 #asso {
-    background-color: #EFFF36;
-    margin-top: 5%;
+    background-color: #E787FF;
+    margin-top: 8.5%;
 }
 
 #asso:hover {
@@ -295,9 +299,13 @@ hr {
     color: white;
 }
 
+#asso:active{
+    color:black;
+}
+
 #form {
-    background-color: #51FC00;
-    margin-top: 8%;
+    background-color: #EFFF36;
+    margin-top: 11.5%;
 }
 
 #form:hover {
@@ -305,9 +313,13 @@ hr {
     color: white;
 }
 
+#form:active{
+    color:black;
+}
+
 #comp {
-    background-color: #FF0000;
-    margin-top: 11%;
+    background-color: #51FC00;
+    margin-top: 14.5%;
 }
 
 #comp:hover {
@@ -315,9 +327,13 @@ hr {
     color: white;
 }
 
+#comp:active{
+    color:black;
+}
+
 #at {
-    background-color: #9747FF;
-    margin-top: 14%;
+    background-color: #FF0000;
+    margin-top: 17.5%;
 }
 
 #at:hover {
@@ -325,9 +341,13 @@ hr {
     color: white;
 }
 
+#at:active{
+    color:black;
+}
+
 #prix {
-    background-color: #FF9900;
-    margin-top: 17%;
+    background-color: #9747FF;
+    margin-top: 20.5%;
 }
 
 #prix:hover {
@@ -335,14 +355,22 @@ hr {
     color: white;
 }
 
+#prix:active{
+    color:black;
+}
+
 #interet {
-    background-color: #02D7D7;
-    margin-top: 20%;
+    background-color: #FF9900;
+    margin-top: 23.5%;
 }
 
 #interet:hover {
     background-color: black;
     color: white;
+}
+
+#interet:active{
+    color:black;
 }
 
 
