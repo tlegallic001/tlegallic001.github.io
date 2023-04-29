@@ -179,7 +179,7 @@ p {
 
 .image-grid{
     width:100%;
-    margin-left: 358px;
+    margin-left: 2%;
     padding-bottom: 5px;
     padding-top: 7px;
 
@@ -203,7 +203,6 @@ p {
 
 @media screen and (max-width: 1024px) {
     .image-grid{
-    margin-left: 350px;
         --num-cols:2;
         --row-height:200px;
     }
