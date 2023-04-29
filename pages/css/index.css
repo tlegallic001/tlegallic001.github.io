@@ -203,7 +203,7 @@ p {
 
 @media screen and (max-width: 1024px) {
     .image-grid{
-        --gap: 10px;
+    margin-left: 350px;
         --num-cols:2;
         --row-height:200px;
     }
