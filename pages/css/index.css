@@ -178,14 +178,12 @@ p {
 }
 
 .image-grid{
-    position:fixed;
     width:100%;
-    height:auto;
     margin-left: 358px;
     padding-bottom: 5px;
     padding-top: 7px;
 
-    --gap: 10px;
+    --gap: 2%;
     --num-cols:3;
     --row-height:300px;
 
