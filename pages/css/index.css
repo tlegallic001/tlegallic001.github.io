@@ -8,8 +8,7 @@
 }
 
 body {
-    height: 100vh;
-    width: auto;
+    min-height: 100vh;
     background-color: #FFCF23;
     background-size: cover;
     background-repeat: no-repeat;
@@ -201,7 +200,7 @@ p {
     height: 100%;
 }
 
-@media screen and (max-width: 1024px) {
+@media screen and (max-width: 100%) {
     .image-grid{
         --num-cols:2;
         --row-height:200px;
