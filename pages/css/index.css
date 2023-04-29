@@ -175,11 +175,9 @@ p {
 
 .img {
     height: 100%;
-    position:fixed;
 }
 
 .image-grid{
-        position:fixed;
     width:100%;
     margin-left: 358px;
     padding-bottom: 5px;
@@ -199,7 +197,6 @@ p {
 }
 
 .image-grid > img {
-        position:fixed;
     width: 100%;
     height: 100%;
 }
