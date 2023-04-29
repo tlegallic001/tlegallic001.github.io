@@ -8,7 +8,6 @@
 }
 
 body {
-    overfow-x:hidden;
     min-height: 100vh;
     background-color: #FFCF23;
     background-size: cover;
@@ -176,9 +175,11 @@ p {
 
 .img {
     height: 100%;
+    position:fixed;
 }
 
 .image-grid{
+        position:fixed;
     width:100%;
     margin-left: 358px;
     padding-bottom: 5px;
@@ -198,12 +199,14 @@ p {
 }
 
 .image-grid > img {
+        position:fixed;
     width: 100%;
     height: 100%;
 }
 
 @media screen and (max-width: 1024px) {
     .image-grid{
+            position:fixed;
         --num-cols:2;
         --row-height:200px;
     }
