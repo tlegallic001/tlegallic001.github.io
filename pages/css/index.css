@@ -8,6 +8,7 @@
 }
 
 body {
+    overfow-x:hidden;
     min-height: 100vh;
     background-color: #FFCF23;
     background-size: cover;
